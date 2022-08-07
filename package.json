@@ -1,0 +1,41 @@
+{
+  "name": "dynamic-interception-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tomphttp/bare-client": "^1.0.2-beta-rollup6",
+    "@tomphttp/bare-server-node": "^1.0.2-beta-typings3",
+    "css-tree": "^2.1.0",
+    "escodegen": "^2.0.0",
+    "esotope-hammerhead": "^0.6.1",
+    "fetch-headers": "^3.0.1",
+    "http": "0.0.1-security",
+    "idb": "^7.0.2",
+    "meriyah": "^4.2.1",
+    "mime": "^3.0.0",
+    "mime-types": "^2.1.35",
+    "node-static": "^0.7.11",
+    "parse5": "^7.0.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "set-cookie-parser": "^2.4.8",
+    "walk-parse5": "^2.0.0",
+    "webpack": "^5.69.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/escodegen": "^0.0.7",
+    "@types/set-cookie-parser": "^2.4.2",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
