@@ -13,5 +13,6 @@ npm start
 # Discord
 
 Join the Discord!
+
 https://discord.gg/jn9SxM5K
-```
+
