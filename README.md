@@ -1,9 +1,9 @@
-# Dynamic-Interception-Proxy Demo
+# Francium-Interception
 
-**Contains Ultraviolet to show dual-proxy compatibility**
+**Dual Proxy Combatibility**
 
 
-## Running
+## How to run
 ```txt
 git clone https://github.com/Dynamic-Interception-Proxy/DIP-Demo
 cd DIP-Demo
