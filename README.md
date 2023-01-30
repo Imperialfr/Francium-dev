@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 # Discord
-```txt
+``txt
 Join the Discord!
 https://discord.gg/jn9SxM5K
 ```
