@@ -10,3 +10,8 @@ cd DIP-Demo
 npm install
 npm start
 ```
+# Discord
+```txt
+Join the Discord!
+https://discord.gg/jn9SxM5K
+```
