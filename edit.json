@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Join our discord:https://discord.gg/jn9SxM5K</h1>
+<h2></h2>
+
+<p></p>
+
+<script>
+const h1 = document.createElement("");
+const textNode = document.createTextNode("");
+h1.appendChild(textNode);
+document.body.appendChild(h1);
+</script>
+
+</body>
+</html>
