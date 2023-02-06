@@ -5,7 +5,7 @@
 
 ## How to run
 ```txt
-git clone https://github.com/Dynamic-Interception-Proxy/DIP-Demo
+git clone https://github.com/Imperialfr/Francium-dev
 cd DIP-Demo
 npm install
 npm start
