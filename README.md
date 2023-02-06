@@ -6,7 +6,7 @@
 ## How to run
 ```txt
 git clone https://github.com/Imperialfr/Francium-dev
-cd DIP-Demo
+cd Francium-dev
 npm install
 npm start
 ```
