@@ -14,6 +14,6 @@ npm start
 
 Join the Discord!
 
-https://discord.gg/jn9SxM5K
+https://discord.gg/zNTAFD9wSj
 
 chris is a loserrr
