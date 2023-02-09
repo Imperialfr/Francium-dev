@@ -1,7 +1,7 @@
 if (!self.__DIP) self.__DIP={};
 
 self.__DIP.config = {
-  prefix: '/service/dip/',
+  prefix: '/usedservice/fip/',
   encoding: 'xor',
   ws: true,
   cookies: true,
