@@ -35,6 +35,8 @@ var worker = navigator.serviceWorker.register('/sw.js?${Math.round(Math.random()
 scope: '/service',
 }).then(() => {
 location.reload();
+var background = document.createElement('style'); background.setAttribute(' body {background-color: black;}')
+
 });
 }
 </script>`);
