@@ -1,0 +1,234 @@
+body {
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Prompt, Arial;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgb(11, 135, 61);
+}
+
+.four-leaf-clover {
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 2px;
+}
+
+.main-box {
+  background-color: rgb(9, 148, 65);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 8px;
+  flex: .6;
+  height: 200px;
+  position: relative;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  --width: 40px;
+  --height: calc(var(--width) / 2.2);
+
+  position: relative;
+  display: inline-block;
+  width: var(--width);
+  height: var(--height);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--height);
+  cursor: pointer;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--height);
+  background-color: rgb(254, 165, 63);
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle .slider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--height));
+  height: calc(var(--height));
+  border-radius: calc(var(--height) / 2);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle input:checked+.slider {
+  background-color: rgb(113, 212, 33);
+}
+
+.toggle input:checked+.slider::before {
+  transform: translateX(calc(var(--width) - var(--height)));
+}
+
+.dropdown-container {
+  position: absolute;
+  right: 12px;
+  top: 4px;
+}
+
+.dropdown-menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: -12px;
+}
+
+.ul-div {
+  padding: 0px;
+}
+
+.hamburger-icon {
+  height: 26px;
+  transition: opacity 12s;
+}
+
+.dropdown-ul {
+  visibility: hidden;
+  transition: visibility .1s, margin-top .2s;
+  list-style: none;
+  border: solid;
+  margin-top: 8px;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(14, 136, 62);
+}
+
+.dropdown-options {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 4px 2px 2px 4px;
+}
+
+.dropdown-options:hover {
+  background-color: rgb(16, 99, 38);
+}
+
+.discord-icon-dropdown {
+  height: 16px;
+  margin-right: 2px;
+}
+
+.github-icon-dropdown {
+  height: 22px;
+  margin-right: 2px;
+}
+
+.dropdown-container:hover .dropdown-ul {
+  visibility: visible;
+  margin-top: 16px;
+}
+
+.dropdown-container:hover .dropdown-menu-button {
+  opacity: 0;
+}
+
+.settings-icon {
+  height: 26px;
+}
+
+.text {
+  font-weight: 300;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.name-text {
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.under-name-text {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline {
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.search-bar-francium,
+.search-bar-ultraviolet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dipinput {
+  color: white;
+  margin-top: 20px;
+  background: none;
+  border: none;
+  border-bottom: 2px;
+  border-bottom: solid;
+  border-bottom-width: 1.4px;
+  transition: border-bottom-color .3s;
+  border-bottom-color: rgb(255, 255, 255);
+}
+
+.dipinput:focus {
+  outline: none;
+  border-bottom-color: rgb(254, 165, 63);
+}
+
+.dipinput:hover {
+  outline: none;
+  border-bottom-color: rgb(254, 165, 63);
+}
+
+.dipinput::placeholder {
+  font-family: Prompt, Arial;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
